@@ -1,2 +1,2 @@
-# projeto_academia
+# projeto_restaurante
 projeto final
