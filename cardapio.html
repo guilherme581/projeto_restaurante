@@ -1,21 +1,36 @@
- <html>
-    
- <h2>Cardápio</h2>
-        <ul>
-            <li><strong>Feijoada Completa</strong> - R$ 32,00</li>
-            <li><strong>Filé com Fritas</strong> - R$ 28,00</li>
-            <li><strong>Costela na Brasa</strong> - R$ 36,00</li>
-            <li><strong>Tropeiro Mineiro</strong> - R$ 29,00</li>
-            <li><strong>Queijo na Brasa</strong> - R$ 12,00</li>
-        </ul>
-        <button id="btnVoltar">Voltar</button>
-  <script>
-    document.getElementById('btnVoltar').addEventListener('click', function () {
-      // Redireciona para index.html
-      window.location.href = 'index.html';
-    });
-  </script>
-  <form method="get" action="pedido.html" target="_blank"></li>
-                    <input class="botao" type="submit" value="Pedido" />
-    </section>
-    </html>
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cardápio - Fogão de Lenha</title>
+    <link rel="stylesheet" href="estilospedido.css">
+</head>
+<body>
+    <header>
+        <h1>Fogão de Lenha</h1>
+        <nav>
+            <ul>
+                <li><a class="btn" href="index.html">Início</a></li>
+                <li><a class="btn" href="sobre.html" target="_blank">Sobre</a></li>
+                <li><a class="btn" href="pedido.html" target="_blank">Pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Cardápio</h2>
+            <ul>
+                <li><strong>Feijoada Completa</strong> - R$ 32,00</li>
+                <li><strong>Filé com Fritas</strong> - R$ 28,00</li>
+                <li><strong>Costela na Brasa</strong> - R$ 36,00</li>
+                <li><strong>Tropeiro Mineiro</strong> - R$ 29,00</li>
+                <li><strong>Queijo na Brasa</strong> - R$ 12,00</li>
+            </ul>
+            <a class="btn" href="pedido.html" target="_blank">Fazer Pedido</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Fogão de Lenha. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
