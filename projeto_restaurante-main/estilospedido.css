@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #8b4513;
+    color: #fbe9d7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #5a2d0c;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin: 0.3rem 0 0 0;
+    font-weight: 300;
+    font-style: italic;
+    color: #e4c9a0;
+}
+
+main {
+    flex-grow: 1;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #6e3f12;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+    padding: 2rem;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #ffb84d;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px #3a1f04;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #8b5a17;
+    text-align: left;
+}
+
+th {
+    background-color: #d2691e;
+    color: #fff8e1;
+}
+
+tbody tr:hover {
+    background-color: #a75d22;
+}
+
+form {
+    background: #8b5a17;
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    color: #fff8e1;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    background: #d2691e;
+    border: none;
+    padding: 0.9rem 2rem;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(210,105,30,0.9);
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background: #a35414;
+    box-shadow: 0 6px 18px rgba(163,84,20,1);
+}
+.note{
+    margin-top: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+    color: #f0d2a1cc;
+    text-align: center;
+}
+.confirmacao {
+    background-color: #5a2d0c;
+    text-align: center;
+    box-shadow: 0 4px 8px #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffffff;
+    padding: 10;
+    text-align: center;
+    margin: 90;
+    border-radius: 100px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+  margin: 5px;}
+  
